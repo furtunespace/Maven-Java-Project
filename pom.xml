@@ -119,6 +119,16 @@
             </build>
         </profile>
   </profiles>
-
- 
+<distributionManagement>
+	<repository>      
+	<id>nexus</id>
+	<name>Jenkins-releases</name>
+	<url>http://13.232.173.166:8081/nexus/content/repositories/Jenkins-releases</url>
+	</repository>
+	<snapshotRepository>
+	<id>nexus</id>
+	<name>Jenkins-snapshots</name>
+	<url>http://13.232.173.166:8081/nexus/content/repositories/Jenkins-snapshots</url>  
+	</snapshotRepository>
+</distributionManagement>
 </project>
